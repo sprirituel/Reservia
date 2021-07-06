@@ -198,23 +198,25 @@ button
 #filtres ul li
 {
 		border: 2px #F2F2F2 solid;
-		border-radius: 30px 30px 30px 30px;
+		border-radius: 30px;
 		text-align: center;
 		padding-right: 30px;
+		margin-bottom: 15px;
 }
 
-#filtres a
+#filtres li
 {
 	text-decoration: none;
-	margin-right: 10px;
+	margin-right: 15px;
 }
 
-#filtres a:hover
+#filtres li:hover
 {
 	background-color: #deebff;
-	border-radius: 30px 30px 30px 30px;
-
+	border: 1px #deebff solid;
 } 
+
+
 
 #filtres .fas
 {
