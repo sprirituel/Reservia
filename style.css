@@ -213,8 +213,14 @@ button
 #filtres li:hover
 {
 	background-color: #deebff;
-	border: 1px #deebff solid;
+	border: 0px #deebff solid;
 } 
+
+#filtres a
+{
+	text-decoration: none;
+	color: black;
+}
 
 
 
