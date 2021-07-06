@@ -14,11 +14,13 @@ nav
 nav a
 {
 	text-decoration:none; 
+	color: black;
 }
 
 footer a
 {
 	text-decoration:none; 
+	color: black;
 
 }
 
@@ -84,6 +86,7 @@ header
 	width: 100%;
 	height: 150px;
 	border-radius: 25px 25px 0 0;
+	object-fit: cover;
 }
 
 .image-populaire img
@@ -91,6 +94,7 @@ header
 	height: 100%;
 	width : 160px;
 	border-radius: 25px 0 0 25px;
+	object-fit: cover;
 }
 
 .image-activite img
@@ -98,6 +102,7 @@ header
 	height: 100%;;
 	width: 100%;
 	border-radius: 25px 25px 0 0;
+	object-fit: cover;
 }
 
 h1
