@@ -1,34 +1,55 @@
 #logo img
 {
 	width: 180px;
-	height: auto;	
+	height: auto;
+
+}
+
+nav
+{
+	display: flex;
+	justify-content: unsafe flex-end;
+}
+
+nav a
+{
+	text-decoration:none; 
 }
 
 nav ul
 {
 	list-style-type: none;
 	display: flex;
-	font-size: 1.4em;
-}
 
+}
 nav li
 {
-	margin-left: 80px;
+	margin-left: 70px;
+
 }
 
-nav li a:hover
+#nav
+{
+	display: flex;
+	padding-left: 0px;
+}
+
+#inscrire-bas
+{
+	padding-left: 60px;
+	color: #0065FC;
+	font-weight: bold;
+}
+
+
+a:hover
 {
 
-	text-decoration: overline 2px blue;
+	text-decoration: overline 4px #0065FC;
+	color: red;
 }
 
-li a
-{
-	text-decoration:none
-
-}
-
-.envoyer:hover
+button:hover
 {
 	cursor: pointer;
 	color: black;
@@ -41,6 +62,7 @@ a:visited
 
 header
 {
+	font-size: 1.7em;
 	display: flex;
 	justify-content: space-between;
 
@@ -100,7 +122,7 @@ input::placeholder
 	height: 50px;
 }
 
-#recherche .fas
+#here
 {
 	color: black;
 	font-size: 1.4em;
@@ -114,7 +136,7 @@ input::placeholder
 	padding-left: 5px;
 }
 
-.envoyer
+button
 {
 	font-size: 1.2em;
 	width: 150px;
@@ -124,6 +146,20 @@ input::placeholder
 	border-radius: 0 15px 15px 0;
 	border: none;
 	height: 50px;
+}
+
+
+#glass .fas
+{
+	background-color: #0065FC;
+	border-radius: 20px;
+	color: white;
+	font-size: 1.4em;
+	width: 45px;
+	height: 35px;
+	text-align: center;
+	padding-top: 13px;
+	padding-left: 5px;
 }
 
 #filtres
@@ -175,6 +211,7 @@ input::placeholder
 	height: 40px;
 	padding-top: 15px;
 }
+
 #filtres p
 {
 	padding-top: 17px;
@@ -447,3 +484,216 @@ footer ul li
 }
 
 
+
+@media (min-width: 780px) 
+{
+	#glass
+	{
+		display: none;
+	}
+
+	#inscrire-haut
+	{
+		display: none;
+	}
+
+
+}
+
+
+
+@media (max-width: 1400px) and (min-width: 780px) 
+{
+
+    #filtres ul
+    {
+    	flex-wrap: wrap;
+    }
+
+    .haut
+	{
+		display: flex;
+		flex-direction: column-reverse;
+
+	}
+
+	aside
+	{
+		width: 100%;
+	}
+
+		#bloc-page
+	{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	#debut
+	{
+		margin-top: 20px;
+		width: 100%;
+		height: 100%;
+	}
+
+	.image-populaire img 
+	{
+	    width: 260px;
+	}
+
+	.texte-activite
+	{
+		padding-top: 8px;
+	}
+
+	footer
+	{
+		padding-right: 5px;
+	}
+
+}	
+
+@media (max-width: 780px) and (min-width: 10px) 
+{
+    .image-texte-hebergement 
+    {
+        border-radius: 25px;
+        box-shadow: 1px 1px 6px black;
+        background-color: white;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+
+    .haut
+	{
+		display: flex;
+		flex-direction: column-reverse;
+
+	}
+
+	#debut
+	{
+		width: 100%;
+		height: 100%;
+		background-color: white;
+	}
+
+	aside
+	{
+		width: 100%;
+	}
+
+	#bloc-photo-bas
+	{
+		flex-direction: column;
+		align-items: center;
+		height: 1800px;
+
+	}
+
+	.photos-activite-grande
+	{
+		width: 82%;
+	}
+
+	.image-activite img
+	{
+		height: 180px;
+	}
+
+	.wrapper
+	{
+		height: 540px;
+	}
+
+	#photos-hebergements
+	{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	#activites
+	{
+		padding-top: 0px;
+	}
+
+	footer
+	{
+		margin-top: 0px;
+		flex-direction: column;
+		padding-left: 50px;
+		padding-right: 0;
+
+	}
+
+	#bloc-page
+	{
+		padding-left: 1px;
+		padding-right: 1px;
+	}
+
+
+    button
+    {
+    	display: none;
+    }
+
+    #recherche
+    {
+    	border: 1px #F2F2F2 solid;
+    	border-radius: 20px;
+    	width: 320px;
+    }
+
+    .barre-recherche
+    {
+    	border: none;
+    }
+
+    #filtres
+    {
+    	flex-wrap: wrap;
+    }
+
+    #filtres ul
+    {
+    	flex-wrap: wrap;
+    	margin-top: 0px;
+    	padding-left: 0px;
+    }
+
+    #filtres a
+    {
+    	padding-bottom: 15px;
+    }
+
+
+    header
+    {
+    	flex-direction: column;
+    }
+
+    
+    #inscrire-bas
+	{
+		display: none;
+	}
+
+	 #inscrire-haut
+	{
+		color: #0065FC;
+		font-weight: bold;
+	}
+
+	#logo
+	{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	nav li
+	{
+		padding-right: 50px;
+		margin-left: 0px;
+	}
+
+}
