@@ -53,13 +53,13 @@ nav li
 nav a:hover
 {
 
-	text-decoration: overline 4px #0065FC;
+	text-decoration: overline #0065FC;
 }
 
 footer a:hover
 {
 
-	text-decoration: underline 3px black;
+	text-decoration: underline black;
 }
 
 button:hover
@@ -142,7 +142,6 @@ input::placeholder
 {
 	color: black;
 	font-size: 1.4em;
-	border: 1px #F2F2F2 solid;
 	border-radius: 15px 0 0 15px;
 	background-color: #F2F2F2;
 	width: 40px;
@@ -213,7 +212,6 @@ button
 #filtres li:hover
 {
 	background-color: #deebff;
-	border: 0px #deebff solid;
 } 
 
 #filtres a
@@ -228,7 +226,6 @@ button
 {
 	font-size: 1em;
 	color: #0065FC;
-	border: 1px #deebff solid;
 	border-radius: 50%;
 	background-color: #deebff;
 	width: 56px;
@@ -376,7 +373,6 @@ aside
 .image-texte-populaire
 {
 	display: flex;
-	border: 5px white solid;
 	box-shadow: 1px 1px 6px black;
 	border-radius: 25px;
 	background-color: white;
