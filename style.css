@@ -393,7 +393,7 @@ aside
 	margin-top: -20px;
 }
 
-#texte-etoile
+.texte-etoile
 {
 	display: flex;
 	flex-direction: column;
