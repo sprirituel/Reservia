@@ -304,17 +304,17 @@ h4
 	margin-left: 12px;
 }
 
-#pleine .fas 
+.pleine .fas 
 {
 	color: #0065FC;
 }
 
-#vide .fas
+.vide .fas
 {
 	color: #939BA1;
 }
 
-#star
+.star
 {
 	display: flex;
 	margin-left: 10px;
@@ -402,7 +402,7 @@ aside
 
 }
 
-#star-aside
+.star-aside
 {
 	display: flex;
 	margin-left: 10px;
