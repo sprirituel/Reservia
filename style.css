@@ -499,6 +499,12 @@ footer ul li
 	margin-bottom: 10px;
 }
 
+.faq
+{
+	font-weight: bold;
+	font-size: 1.6em;
+}
+
 #bloc-page
 {
 	padding-left: 50px;
