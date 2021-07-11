@@ -42,7 +42,7 @@ nav li
 	padding-left: 0px;
 }
 
-#inscrire-haut
+#inscrire
 {
 	color: #0065FC;
 	font-weight: bold;
@@ -738,7 +738,7 @@ footer ul li
 	}
 
 
-	#inscrire-haut
+	#inscrire
 	{
 		position: absolute;
 		top : 4%;
