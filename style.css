@@ -83,10 +83,12 @@ header
 
 .image-hebergement img
 {
-	width: 100%;
+	width: 96%;
 	height: 150px;
 	border-radius: 25px 25px 0 0;
 	object-fit: cover;
+	margin-left: 2%;
+	margin-top: 2%;
 }
 
 .image-populaire img
@@ -287,7 +289,6 @@ button
 
 .image-texte-hebergement
 {
-	border: 5px white solid;
 	border-radius: 25px;
 	box-shadow: 1px 1px 6px black;
 	background-color: white;
